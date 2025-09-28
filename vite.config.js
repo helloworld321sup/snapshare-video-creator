@@ -6,5 +6,10 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
+  },
+  base: '/snapshare-video-creator/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
   }
 })
